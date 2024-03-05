@@ -14,9 +14,16 @@
 
     - name: Write the apache config file
       ansible.builtin.template:
-        src: /srv/httpd.j2
-        dest: /etc/httpd.config
-        mode: "0644"
+        src: /etc/httpd/conf/httpd.conf
+        dest: /etc/httpd/conf/httpd.conf
+        owner: root
+        group: root
+        mode: 420
+      # ansible.builtin.template:
+      #  src: /srv/httpd.j2
+      #  dest: /etc/httpd.config
+      #  mode: "0644"
+      
 
 # Task 2
 - name: Update db servers

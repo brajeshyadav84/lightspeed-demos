@@ -48,3 +48,9 @@ Tested Ansible Playbooks are available for each corresponding demo Playbook and 
 Please use this to compare your generated suggestions before doing the demo.
 
 ---
+
+Access key
+AKIAY5PJGTRGGLCYQBES
+
+Secret
+GJjoRb9adLOst82C2+aGQIg/jLnEylyQ8zb4XlAE
